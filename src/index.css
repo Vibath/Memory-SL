@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.perspective {
+  perspective: 1000px;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.perspective {
+  perspective: 1000px;
+}
+
+.card-3d {
+  transform-style: preserve-3d;
+}
+
+.card-front,
+.card-back {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transition: transform 0.8s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+.card-flip {
+  transform: rotateY(180deg);
+}
+.perspective {
+  perspective: 1000px;
+}
+
+.card-3d {
+  transform-style: preserve-3d;
+}
+
+.card-front,
+.card-back {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transition: transform 0.8s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+.card-flip {
+  transform: rotateY(180deg);
+}
+
+/* Glow and hover effects */
+.card-hover-glow {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card-hover-glow:hover {
+  transform: scale(1.05) translateY(-4px);
+  box-shadow: 0 0 25px rgba(212, 163, 115, 0.5), 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+/* Pulse for Tap for Info */
+@keyframes pulseInfo {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+}
+
+.tap-info-anim {
+  animation: pulseInfo 2s infinite;
+}
+.social-icon {
+  @apply text-white hover:text-[#d4a373] text-xl transition duration-300;
+}
