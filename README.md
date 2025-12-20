@@ -1,12 +1,45 @@
-# React + Vite
+# Memory SL Official Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the **official promotional website for Memory SL**, a popular music band based in Kandy, Sri Lanka. The website was designed and developed as a **modern, mobile-first React application** to showcase the band’s events, projects, and soundgear setup.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖥️ Live Demo
 
-## Expanding the ESLint configuration
+Check out the live site here: (https://vibath.github.io/Memory-SL/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎯 Features
+
+- Fully **responsive design** optimized for mobile and desktop.
+- **Interactive hero section** 
+- **Events section** covering weddings, concerts, corporate events, and NYE parties.
+- **Projects section** including "Memory on Street" and "Memoryloss Episodes" with descriptions and media.
+- **Band members section** with photos and short bios.
+- **Soundgear section** featuring Memory SL’s sound equipment setup.
+- **Contact section** with modern footer, social media links, and downloadable promotional resources.
+- Smooth **animations using Framer Motion**.
+- Clean, modern, and professional aesthetic.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS, Framer Motion
+- **Media & Assets:** Optimized images and video content
+
+---
+
+🎨 Design & Development
+
+Designed & developed by: Vibath Jayasundara
+
+Client: Memory SL Music Band
+
+The project was crafted to provide a modern, interactive, and fully responsive experience for fans and potential clients of Memory SL.
+
+📄 License
+
+ All rights reserved to Memory SL for the content.
+
