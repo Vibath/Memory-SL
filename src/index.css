@@ -4,9 +4,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 body {
   font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+  background-color: #050505; /* Prevents white flashes on iPhone bounce */
+  color: white;
 }
 .perspective {
   perspective: 1000px;
