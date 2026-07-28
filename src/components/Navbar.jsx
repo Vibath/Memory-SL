@@ -94,8 +94,8 @@ export default function Navbar() {
     <>
       {/* --- THE HEADER --- */}
       <header 
-        className={`fixed top-0 left-0 w-full z-[100] flex justify-between items-center pointer-events-none transition-all duration-500 ease-[cubic-bezier(0.33,1,0.68,1)]
-          ${isScrolled ? "py-4 px-6 md:px-12 bg-black/50 backdrop-blur-md border-b border-white/5" : "py-8 px-6 md:px-12"} 
+        className={`fixed top-0 left-0 w-full z-[100] flex justify-between items-center pointer-events-none transition-all duration-500 ease-[cubic-bezier(0.33,1,0.68,1)] border-b
+          ${isScrolled ? "py-4 px-6 md:px-12 bg-black/50 backdrop-blur-md border-white/5" : "py-8 px-6 md:px-12 border-transparent"} 
           ${isHidden ? "-translate-y-full" : "translate-y-0"}
         `}
       >

@@ -11,14 +11,14 @@ import dHero4 from "../images/desktop-hero4.jpg";
 import dHero5 from "../images/desktop-hero5.jpg";
 
 // --- MOBILE IMAGES (Vertical/Portrait) ---
-import mHero1 from "../images/mobile-hero1.jpg";
-import mHero2 from "../images/mobile-hero2.jpg";
-import mHero3 from "../images/mobile-hero3.jpg";
-import mHero4 from "../images/sachithra.jpg";
-import mHero5 from "../images/mobile-hero5.jpg";
-import mHero6 from "../images/mobile-hero6.jpg";
-import mHero7 from "../images/mobile-hero7.jpg";
-import mHero8 from "../images/mobile-hero8.jpg";
+import mHero1 from "../images/mobile-hero1.webp";
+import mHero2 from "../images/mobile-hero2.webp";
+import mHero3 from "../images/mobile-hero3.webp";
+import mHero4 from "../images/sachithra.webp";
+import mHero5 from "../images/mobile-hero5.webp";
+import mHero6 from "../images/mobile-hero6.webp";
+import mHero7 from "../images/mobile-hero7.webp";
+import mHero8 from "../images/mobile-hero8.webp";
 
 const desktopImages = [dHero1, dHero2, dHero3, dHero4, dHero5];
 const mobileImages = [mHero1, mHero2, mHero3, mHero4, mHero5, mHero6, mHero7, mHero8];
@@ -64,6 +64,8 @@ export default function Hero() {
               key={`${isMobile ? 'm' : 'd'}-${current}`}
               src={activeImages[current]}
               alt="Memory SL Live"
+              fetchPriority="high" /* Forces mobile browsers to download this first */
+              loading="eager"
               initial={{ opacity: 0, scale: 1.15 }} // Start slightly zoomed in
               animate={{ opacity: 0.6, scale: 1 }} // End at normal scale
               exit={{ opacity: 0 }} // Fade out perfectly to black/next image
@@ -175,7 +177,7 @@ export default function Hero() {
             className="flex flex-col items-center gap-3 mb-6"
           >
             <span className="font-['Montserrat',sans-serif] text-[#d4a373] text-[10px] sm:text-xs font-semibold tracking-[0.25em] uppercase">
-              Curators of Live Entertainment
+              Where Memories Come Alive
             </span>
             <div className="w-12 h-[2px] bg-[#d4a373]" />
           </motion.div>
