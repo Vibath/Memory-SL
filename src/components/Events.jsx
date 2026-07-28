@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import weddingImg from '../images/wedding.jpg';
 import concertImg from '../images/concert.jpg';
 import nyeImg from '../images/nye.jpg';
-import corporateImg from '../images/corporate.jpg';
+import corporateImg from '../images/corporate.JPG';
 
 const events = [
   {

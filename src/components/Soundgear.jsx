@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 import soundgearLogo from "../images/soundgear-logo.png"; 
-import soundgearPhoto from "../images/soundgear-main.jpg"; 
+import soundgearPhoto from "../images/soundgear-main.JPG"; 
 import jbl from "../images/jbl.jpg";
 import siImpact from "../images/soundcraft.jpg"; // Renamed for Soundcraft
 import pdp from "../images/pdp-drum.jpg";
