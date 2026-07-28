@@ -4,5 +4,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/Memory-SL/" // <-- repo name
+  base: "/" // <-- repo name
 });
