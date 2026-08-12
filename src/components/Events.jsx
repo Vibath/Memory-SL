@@ -3,6 +3,7 @@ import weddingImg from '../images/wedding.jpg';
 import concertImg from '../images/concert.jpg';
 import nyeImg from '../images/nye.jpg';
 import corporateImg from '../images/corporate.JPG';
+import pubImg from '../images/pub.jpg'; // <-- ADD THIS IMPORT AND ADD THE IMAGE TO YOUR FOLDER
 
 const events = [
   {
@@ -36,6 +37,14 @@ const events = [
     description:
       "A trusted name in the corporate entertainment space, Memory SL frequently headlines annual galas and large-scale corporate events for leading brands, including Daraz and MAS Holdings. Our performances are meticulously tailored to reflect professionalism, corporate brand identity, and exceptional production value.",
     image: corporateImg,
+  },
+  {
+    id: "05",
+    title: "Pubs & Lounges",
+    subtitle: "The Colombo Nightlife",
+    description:
+      "Memory SL brings an electrifying yet intimate vibe to some of Colombo's most famous nightlife spots. You can catch our recent live sets at premier venues like Portview Restaurant and The Joint Pub. As we continue to expand our footprint in the city's live music scene, we are actively looking to bring our signature sound to more elite pubs, lounges, and residencies.",
+    image: pubImg, // <-- NEW IMAGE HERE
   },
 ];
 
