@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function WeddingPackages() {
   // Replace this with your actual Google Drive PDF link
-  const driveLink = "https://drive.google.com/file/d/1XxXr53ltkx-3uDufs1ltbPPylwQHYLYk/view?usp=drivesdk";
+  const driveLink = "https://drive.google.com/file/d/1QcC89FTiwX4K5iIBz2qVihIohSJ9Aqxz/view?usp=drive_link";
 
   return (
     <section
